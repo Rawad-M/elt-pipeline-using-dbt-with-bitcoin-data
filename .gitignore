@@ -205,3 +205,37 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+/.idea/
+
+
+# ----------------------------------------------------------------------
+# Visual Studio Code (VS Code) files
+# ----------------------------------------------------------------------
+
+# Local workspace settings
+.vscode/settings.json
+# Local project launch configurations
+.vscode/launch.json
+# Local project tasks
+.vscode/tasks.json
+# VS Code extensions recommendations
+.vscode/extensions.json
+
+# Exclude local state
+.vscode/cmake-kits.json
+.vscode/ipch/
+.vscode/PGO/
+.vscode/profiler/
+.vscode/*.log
+.vscode/*.txt
+.vscode/compile_commands.json
+.vscode/.active/
+.vscode/cquery_cached_index/
+
+# ----------------------------------------------------------------------
+# Operating System (OS) and Temporary Files
+# ----------------------------------------------------------------------
+
+# Thumbnails and system files
+.DS_Store
+Thumbs.db
