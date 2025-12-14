@@ -9,5 +9,5 @@
 
 1. Obtain Source Data from S3 Bucket
 2. Ingest Source data into Snowflake
-3. Transform via DTB
+3. Transform via Data Build Tool (DBT)
 4. Visualise via PowerBI
