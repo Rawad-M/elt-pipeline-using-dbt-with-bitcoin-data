@@ -2,7 +2,7 @@
 
 ## Project Steps
 
-1. Obtain Source Data from S3 Bucket
+1. Obtain Bitcoin Source Data from S3 Bucket
 2. Ingest Source data into Snowflake
 3. Transform via Data Build Tool (DBT)
 4. Visualise via PowerBI
