@@ -17,3 +17,20 @@
 
 - Snowflake account: rawad.i.malik@gmail.com
 
+### Python Set-up
+
+```shell
+python -m venv venv
+
+venv\Scripts\activate
+```
+
+### DTB Set-up
+
+````shell
+pip install --upgrade pip
+pip install dbt-core==1.9.4
+pip install dbt-snowflake==1.9.4
+
+dbt --version
+```
