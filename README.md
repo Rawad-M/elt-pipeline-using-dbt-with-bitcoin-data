@@ -16,6 +16,8 @@
 ### Snowflake Account:
 
 - Snowflake account email: rawad.i.malik@gmail.com
+- Database: BTC_DATABASE
+- Schema: BTC_SCHEMA
 - Role: ACCOUNTADMIN
 - Account/Server URL: EYBDADR-QZ09350.snowflakecomputing.com
 - Warehouse: COMPUTE_WH
