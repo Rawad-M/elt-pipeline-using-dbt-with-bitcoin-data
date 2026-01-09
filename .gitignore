@@ -240,3 +240,8 @@ __marimo__/
 .DS_Store
 Thumbs.db
 /progress.txt
+
+
+bitcoin_dbt_project/target/
+bitcoin_dbt_project/dbt_packages/
+bitcoin_dbt_project/logs/
