@@ -15,7 +15,9 @@
 
 ### Snowflake Account:
 
-- Snowflake account: rawad.i.malik@gmail.com
+- Snowflake account email: rawad.i.malik@gmail.com
+- Account/Server URL: EYBDADR-QZ09350.snowflakecomputing.com
+- Warehouse: COMPUTE_WH
 
 ### Python Set-up
 
@@ -33,4 +35,5 @@ pip install dbt-core==1.9.4
 pip install dbt-snowflake==1.9.4
 
 dbt --version
+dbt init
 ```
