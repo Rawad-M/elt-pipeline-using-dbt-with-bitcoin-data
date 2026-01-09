@@ -1,0 +1,65 @@
+{
+  "block_hash": "0000000000000000000169b9ed9524e6765a75f4b6820c012046462372a421b4",
+  "block_number": 930431,
+  "block_timestamp": "2026-01-01 14:12:51.000",
+  "date": "2026-01-01",
+  "fee": 7.420000000000000e-06,
+  "hash": "1224a6b54b86d5c8868a00037a6ed56a276596707a303fa87e2cbb54370edf1a",
+  "index": 1199,
+  "input_count": 2,
+  "input_value": 1.028019000000000e-02,
+  "inputs": [
+    {
+      "address": "17KoXPD4gbpgNGSwVYDFnSvYspMLGWVm36",
+      "index": 0,
+      "required_signatures": 1,
+      "script_asm": "304402203a50ad672cb80c42df6aef7271c4a9b45431ca225ed3d12d60bca601307cb68c02202e182b62cb3c8697a3bdf2e981575cd3880aaf3bae5306ec0436a8a5bd693b0f[ALL] 025c1e58633b5026e800f5816807bfe8fe250ab861b05363f6586c399ea1bd5d8d",
+      "script_hex": "47304402203a50ad672cb80c42df6aef7271c4a9b45431ca225ed3d12d60bca601307cb68c02202e182b62cb3c8697a3bdf2e981575cd3880aaf3bae5306ec0436a8a5bd693b0f0121025c1e58633b5026e800f5816807bfe8fe250ab861b05363f6586c399ea1bd5d8d",
+      "sequence": 4294967295,
+      "spent_output_index": 4,
+      "spent_transaction_hash": "66cdff05e9a05e35eee79704db38a8ca413978f40e5e79a7a6a00b85ebc75740",
+      "type": "pubkeyhash",
+      "value": 1.674840000000000e-03
+    },
+    {
+      "address": "17KoXPD4gbpgNGSwVYDFnSvYspMLGWVm36",
+      "index": 1,
+      "required_signatures": 1,
+      "script_asm": "3045022100985f60864605a0ac10450843639b32d8907afb9088917851ef2981a3716ffc03022042e2da3d4451905a478e15ab48e1c112c3b4cd103e802a3ef3bead489000afb9[ALL] 025c1e58633b5026e800f5816807bfe8fe250ab861b05363f6586c399ea1bd5d8d",
+      "script_hex": "483045022100985f60864605a0ac10450843639b32d8907afb9088917851ef2981a3716ffc03022042e2da3d4451905a478e15ab48e1c112c3b4cd103e802a3ef3bead489000afb90121025c1e58633b5026e800f5816807bfe8fe250ab861b05363f6586c399ea1bd5d8d",
+      "sequence": 4294967295,
+      "spent_output_index": 0,
+      "spent_transaction_hash": "66cdff05e9a05e35eee79704db38a8ca413978f40e5e79a7a6a00b85ebc75740",
+      "type": "pubkeyhash",
+      "value": 8.605349999999999e-03
+    }
+  ],
+  "is_coinbase": false,
+  "last_modified": "2026-01-01 14:13:13.075",
+  "lock_time": 0,
+  "output_count": 2,
+  "output_value": 1.027277000000000e-02,
+  "outputs": [
+    {
+      "address": "bc1qjldmztafrkjtanpcnfp5f8qta58vpnensv7vfw",
+      "index": 0,
+      "required_signatures": 1,
+      "script_asm": "0 97dbb12fa91da4becc389a43449c0bed0ec0cf33",
+      "script_hex": "001497dbb12fa91da4becc389a43449c0bed0ec0cf33",
+      "type": "witness_v0_keyhash",
+      "value": 9.455170000000001e-03
+    },
+    {
+      "address": "14Qo1zLi4r5fxmq45pqdZw6vdEmUR5Ejvz",
+      "index": 1,
+      "required_signatures": 1,
+      "script_asm": "OP_DUP OP_HASH160 25685b8987928fdd2bfd91c84c18cdd6616157d0 OP_EQUALVERIFY OP_CHECKSIG",
+      "script_hex": "76a91425685b8987928fdd2bfd91c84c18cdd6616157d088ac",
+      "type": "pubkeyhash",
+      "value": 8.176000000000000e-04
+    }
+  ],
+  "size": 370,
+  "version": 1,
+  "virtual_size": 370
+}
