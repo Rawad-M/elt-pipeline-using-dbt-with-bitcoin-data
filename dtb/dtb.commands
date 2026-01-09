@@ -1,0 +1,2 @@
+# Test DBT connection to Snowflake
+dbt debug
