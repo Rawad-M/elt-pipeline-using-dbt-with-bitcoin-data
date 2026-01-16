@@ -1,5 +1,5 @@
 # Test DBT connection to Snowflake
 dbt debug
 
-# Test DBT connection to Snowflake
-dbt run -m my_first_dbt_model.sql
+# Test DBT creation of test model
+dbt run --select my_first_dbt_model.sql
