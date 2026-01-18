@@ -15,7 +15,11 @@ OR REPLACE STAGE BTC_DATABASE.BTC_SCHEMA.BTC_STAGE
   URL = 's3://aws-public-blockchain/v1.0/btc/'
   FILE_FORMAT = (TYPE = PARQUET);
 
--- List files available in the stage
+-- Step 3.1 View the created stage
+SHOW
+STAGES IN SCHEMA BTC_DATABASE.BTC_SCHEMA;
+
+-- Step 3.2 List files available in the stage
 -- Will see files by date & blocks
 -- Example: s3://aws-public-blockchain/v1.0/btc/transactions/date=<DATE>/<BLOCK>.snappy.parquet
 LIST
