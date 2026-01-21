@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_btc_source
+    database: BTC_DATABASE
+    schema: BTC_SCHEMA
+
+    tables:
+      - name: BTC_TRANSACTIONS
