@@ -7,3 +7,11 @@ sources:
 
     tables:
       - name: BTC_TRANSACTIONS
+        freshness:
+          warn_after:
+            count: 4
+            period: hour
+        #          error_after:
+        #            count: 24
+        #            period: hour
+        loaded_at_field: BLOCK_TIMESTAMP

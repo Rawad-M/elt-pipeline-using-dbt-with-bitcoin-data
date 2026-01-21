@@ -8,4 +8,5 @@ dbt run --select transaction_table
 
 # Check BTC_TRANSACTIONS table freshness via DBT
 dbt source freshness
+dbt source freshness --debug
 
