@@ -1,7 +1,7 @@
 -- Step 1
 -- Create the source table for Bitcoin transactions to be used by DBT
 CREATE
-OR REPLACE TABLE BTC_DATABASE.BTC_SCHEMA.BTC (
+OR REPLACE TABLE BTC_DATABASE.BTC_SCHEMA.BTC_TRANSACTIONS (
   HASH_KEY VARCHAR,
   BLOCK_HASH VARCHAR,
   BLOCK_NUMBER INT,
@@ -15,8 +15,8 @@ OR REPLACE TABLE BTC_DATABASE.BTC_SCHEMA.BTC (
 );
 
 -- Step 2
--- Copy data from stage into the BTC table, with pattern filter for file names for the daily transactions
-COPY INTO BTC_DATABASE.BTC_SCHEMA.BTC
+-- Copy data from stage into the BTC_TRANSACTIONS table, with pattern filter for file names for the daily transactions
+COPY INTO BTC_DATABASE.BTC_SCHEMA.BTC_TRANSACTIONS
     FROM (
     SELECT
     t.$1:hash AS hashkey,
@@ -35,13 +35,13 @@ COPY INTO BTC_DATABASE.BTC_SCHEMA.BTC
 
 
 -- Step 3
--- Create a Snowflake Task to copy Bitcoin data every 1 hour
+-- Create a Snowflake Task to copy Bitcoin data every 4 hourS
 CREATE
 OR REPLACE TASK BTC_DATABASE.BTC_SCHEMA.BTC_LOAD_TASK
   WAREHOUSE = LARGE_WH
-  SCHEDULE = '1 HOUR'
+  SCHEDULE = '4 HOUR'
 AS
-COPY INTO BTC_DATABASE.BTC_SCHEMA.BTC
+COPY INTO BTC_DATABASE.BTC_SCHEMA.BTC_TRANSACTIONS
     FROM (
         SELECT
         t.$1:hash AS hashkey,
