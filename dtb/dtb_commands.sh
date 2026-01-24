@@ -23,3 +23,6 @@ dbt source freshness --debug
 
 # Run first DBT test
 dbt test
+
+# Full table without using incremental
+dbt run --select transaction_table -- full-referesh
