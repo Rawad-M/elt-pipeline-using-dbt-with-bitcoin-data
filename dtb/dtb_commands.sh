@@ -21,3 +21,5 @@ dbt run --select transaction_table
 dbt source freshness
 dbt source freshness --debug
 
+# Run first DBT test
+dbt test

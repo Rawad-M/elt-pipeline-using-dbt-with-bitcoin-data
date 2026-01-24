@@ -9,7 +9,7 @@ sources:
       - name: BTC_TRANSACTIONS
         freshness:
           warn_after:
-            count: 4
+            count: 24
             period: hour
         #          error_after:
         #            count: 24
