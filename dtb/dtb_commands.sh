@@ -1,3 +1,14 @@
+# DBT Set-up
+pip install --upgrade pip
+pip install dbt-core==1.9.4
+pip install dbt-snowflake==1.9.4
+
+# DTB check version
+dbt --version
+
+# DBT Initial project set-up
+dbt init
+
 # Test DBT connection to Snowflake
 dbt debug
 
