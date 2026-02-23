@@ -22,6 +22,8 @@
 - Account/Server URL: EYBDADR-QZ09350.snowflakecomputing.com
 - Warehouse: COMPUTE_WH
 
+#### Snowflake MFA
+
 ### Python Set-up
 
 ```shell
