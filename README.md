@@ -22,7 +22,19 @@
 - Account/Server URL: EYBDADR-QZ09350.snowflakecomputing.com
 - Warehouse: COMPUTE_WH
 
-#### Snowflake MFA
+### Snowflake MFA
+
+#### Create private key (PKCS#8, encrypted - prompts for passphrase)
+
+```shell
+openssl genrsa 2048 | openssl pkcs8 -topk8 -v2 aes256 -inform PEM -out snowflake_rsa_key.p8
+```
+
+#### Extract public key
+
+```shell
+openssl rsa -in snowflake_rsa_key.p8 -pubout -out snowflake_rsa_key.pub
+```
 
 ### Python Set-up
 

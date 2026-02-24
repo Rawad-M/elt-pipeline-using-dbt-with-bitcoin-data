@@ -1,0 +1,20 @@
+bitcoin_dbt_project:
+  outputs:
+    dev:
+      type: snowflake
+      account: EYBDADR-QZ09350
+      user: rawadm
+      password: <hidden>
+
+      authenticator: username_password_mfa
+      client_request_mfa_token: true
+      private_key_path: <hidden>
+      private_key_passphrase: <hidden>
+
+      database: BTC_DATABASE
+      role: ACCOUNTADMIN
+      schema: DBT_SCHEMA
+      threads: 1
+      warehouse: COMPUTE_WH
+      client_session_keep_alive: True # Add this to prevent timeouts
+  target: dev
