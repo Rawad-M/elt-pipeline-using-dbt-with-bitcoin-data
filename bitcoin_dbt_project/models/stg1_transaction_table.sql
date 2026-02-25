@@ -1,4 +1,5 @@
 -- Controls how DBT writes new BITCOIN transaction data to the table
+-- The table contains Bitcoin transaction data with JSON structures
 {{
   config(
     materialized = 'incremental',
