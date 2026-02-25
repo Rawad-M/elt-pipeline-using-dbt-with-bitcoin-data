@@ -1,3 +1,7 @@
+-- ########################
+-- To enable authenticator: username_password_mfa
+-- ########################
+ALTER ACCOUNT SET ALLOW_CLIENT_MFA_CACHING = TRUE;
 
 ALTER USER RAWADM
 SET RSA_PUBLIC_KEY='-----BEGIN PUBLIC KEY-----
@@ -9,6 +13,3 @@ z7GewJ7fvuhWnt/tHmbW0rqbg76boOGyAQFW5MB7bx5u84l5mHD+fnq0zw0HYjuM
 aRcHW9GsfeyVoP/7TW86nE5SI46DIJ9Zz+hBlkKpvVur0aGRzMsH6wH3z2AcjMDg
 OQIDAQAB
 -----END PUBLIC KEY-----';
-
-
-ALTER ACCOUNT SET ALLOW_CLIENT_MFA_CACHING = TRUE;
