@@ -30,3 +30,4 @@ dbt run --select transaction_table -- full-referesh
 # Run models
 dbt run -m stg1_transaction_table
 dbt run -m stg2_transaction_flattened_table
+dbt run -m stg4_transaction_alert_table
