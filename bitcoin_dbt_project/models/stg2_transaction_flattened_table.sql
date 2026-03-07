@@ -37,7 +37,9 @@ SELECT
     fee,
     input_value,
     output_value,
-    is_coinbase
+    is_coinbase,
+    flat_address,
+    flat_value
 FROM flattened_outputs
 
 -- Expected output
