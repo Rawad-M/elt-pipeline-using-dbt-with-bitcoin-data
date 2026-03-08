@@ -53,7 +53,9 @@ pip install dbt-snowflake==1.9.4
 
 dbt --version
 dbt init
-```
+````
 
 ### External Sites
-https://www.blockchain.com/en
+
+* www.blockchain.com
+* www.coingecko.com

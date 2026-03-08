@@ -1,0 +1,11 @@
+version: 2
+
+seeds:
+  - name: btc_usd_max
+    description: "Historical bitcoin prices data"
+    config:
+      column_types:
+        snapped_at: timestamp_tz
+        price: decimal(18, 4)
+        market_cap: decimal(24, 2)
+        total_volume: decimal(24, 2)
