@@ -14,3 +14,9 @@ SELECT * FROM BTC_DATABASE.DBT_SCHEMA.STG4_TRANSACTION_ALERT_TABLE LIMIT 10;
 -- bc1qx2x5cqhymfcnjtg902ky6u5t5htmt7fvqztdsm028hkrvxcl4t2sjtpd9l
 -- bc1q7cyrfmck2ffu2ud3rn5l5a8yv6f0chkp0zpemf
 -- bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h
+
+
+---------------------------
+-- SEEDS DATA
+---------------------------
+SELECT * FROM BTC_DATABASE.DBT_SCHEMA.BTC_USD_MAX LIMIT 5;
