@@ -36,3 +36,7 @@ dbt run -m stg5_transaction_usd_alert_table
 # Run seed
 dbt seed
 dbt seed --full-refresh
+
+# Creating Documentation
+dtb docs generate
+dbt docs serve
