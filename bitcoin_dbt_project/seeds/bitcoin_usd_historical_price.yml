@@ -5,7 +5,7 @@ seeds:
     description: "Historical bitcoin prices data"
     config:
       column_types:
-        snapped_at: timestamp_tz
+        snapped_at: varchar
         price: decimal(18, 4)
         market_cap: decimal(24, 2)
         total_volume: decimal(24, 2)
